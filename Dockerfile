@@ -1,8 +1,7 @@
 # Copyright 2022 MosaicML LLM Foundry authors
 # SPDX-License-Identifier: Apache-2.0
 
-ARG BASE_IMAGE
-FROM $BASE_IMAGE
+FROM nvcr.io/nvidia/pytorch:23.05-py3
 
 
 # Install and uninstall foundry to cache foundry requirements
